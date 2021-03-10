@@ -1,0 +1,303 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .main-logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inner {
+        padding: 56px 50px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .inner {
+        padding: 56px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    .main .box .photoshop {
+        position: absolute;
+        transform: rotate(-35deg);
+        top: -80px;
+        left: -10px;
+        z-index: 0;
+    }
+  
+    .main .box .figma {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        right: -10px;
+        bottom: -70px;
+    }
+  
+    .main .box .illustrator {
+        position: absolute;
+        transform: rotate(-15deg);
+        z-index: 0;
+        right: -40px;
+        top: -10%;
+    }
+    
+    .main .box .vscode {
+        position: absolute;
+        transform: rotate(-35deg);
+        z-index: 0;
+        top: 95%;
+    }
+    
+    .main .box .xd {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        left: -40px;
+        top: 55%;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main .box .inner {
+        position: relative;
+        padding: 56px 80px;
+        padding-bottom: 32px;
+        box-shadow: 0px 8px 44px rgba(26, 49, 92, 0.04);
+    }
+
+    .main-logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inner {
+        padding: 56px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    .main .box .photoshop {
+        position: absolute;
+        transform: rotate(-35deg);
+        top: -80px;
+        left: -10px;
+        z-index: 0;
+    }
+  
+    .main .box .figma {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        right: -110px;
+        bottom: -80px;
+    }
+  
+    .main .box .illustrator {
+        position: absolute;
+        transform: rotate(-15deg);
+        z-index: 0;
+        right: -40px;
+        top: -30%;
+    }
+    
+    .main .box .vscode {
+        position: absolute;
+        transform: rotate(-35deg);
+        z-index: 0;
+        top: 95%;
+    }
+    
+    .main .box .xd {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        left: -100px;
+        top: 55%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main .box .inner {
+        position: relative;
+        padding: 56px 80px;
+        padding-bottom: 32px;
+        box-shadow: 0px 8px 44px rgba(26, 49, 92, 0.04);
+    }
+
+    .main-logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inner {
+        padding: 56px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    .main .box .photoshop {
+        position: absolute;
+        transform: rotate(-35deg);
+        top: -80px;
+        left: -10px;
+        z-index: 0;
+    }
+  
+    .main .box .figma {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        right: -110px;
+        bottom: -80px;
+    }
+  
+    .main .box .illustrator {
+        position: absolute;
+        transform: rotate(-15deg);
+        z-index: 0;
+        right: -40px;
+        top: -10%;
+    }
+    
+    .main .box .vscode {
+        position: absolute;
+        transform: rotate(-35deg);
+        z-index: 0;
+        top: 95%;
+    }
+    
+    .main .box .xd {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        left: -100px;
+        top: 55%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main .box .inner {
+        position: relative;
+        padding: 56px 80px;
+        padding-bottom: 32px;
+        box-shadow: 0px 8px 44px rgba(26, 49, 92, 0.04);
+    }
+
+    .main-logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inner {
+        padding: 56px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    .main .box .photoshop {
+        position: absolute;
+        transform: rotate(-35deg);
+        top: -80px;
+        left: -10px;
+        z-index: 0;
+    }
+  
+    .main .box .figma {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        right: -110px;
+        bottom: -80px;
+    }
+  
+    .main .box .illustrator {
+        position: absolute;
+        transform: rotate(-15deg);
+        z-index: 0;
+        right: -40px;
+    }
+    
+    .main .box .vscode {
+        position: absolute;
+        transform: rotate(-35deg);
+        z-index: 0;
+        top: 95%;
+    }
+    
+    .main .box .xd {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        left: -100px;
+        top: 55%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main .box .inner {
+        position: relative;
+        padding: 56px 80px;
+        padding-bottom: 32px;
+        box-shadow: 0px 8px 44px rgba(26, 49, 92, 0.04);
+    }
+
+    .main-logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inner {
+        padding: 56px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    .main .box .photoshop {
+        position: absolute;
+        transform: rotate(-35deg);
+        top: -80px;
+        left: -10px;
+        z-index: 0;
+    }
+  
+    .main .box .figma {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        right: -110px;
+        bottom: -80px;
+    }
+  
+    .main .box .illustrator {
+        position: absolute;
+        transform: rotate(-15deg);
+        z-index: 0;
+        right: -40px;
+        top: -15%;
+    }
+    
+    .main .box .vscode {
+        position: absolute;
+        transform: rotate(-35deg);
+        z-index: 0;
+        top: 95%;
+    }
+    
+    .main .box .xd {
+        position: absolute;
+        transform: rotate(25deg);
+        z-index: 0;
+        left: -100px;
+        top: 55%;
+    }
+}
